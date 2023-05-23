@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello JavaScript</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="/lesson11/part1/style.css">
+</head>
+
+<body>
+    <h1>Hello JavaScript</h1>
+
+    <div class="frame">
+        <div class="task">
+            <h2>יש ליצור כפתור עם הספרה 1, כל לחיצה על הכפתור, תגדיל אותו ב-1</h2>
+            <button onclick="task1()" id="btn">1</button>
+        </div>
+
+        <div class="task">
+            <h2>יש לשאול שאלה ואם התשובה נכונה, לכתוב
+                "נכון". ואם התשובה לא נכונה, לכתוב "לא נכון".</h2>
+            <p><b>באיזה צבע הבננה?</b></p>
+            <input type="text" id="answer1">
+            <button onclick="task2()">בדוק</button>
+            <span id="output1"></span>
+        </div>
+
+        <div class="task">
+            <h2>יש לנחש את העיר הנכונה.</h2>
+            <p><b>ביחרו את העיר:</b></p>
+            <select onchange="task3()" id="city">
+                <option></option>
+                <option>חיפה</option>
+                <option>ראשון לציון</option>
+                <option>כפר חרוב</option>
+                <option>תל אביב</option>
+                <option>קרית ארבע</option>
+                <option>רחובות</option>
+                <option>עפולה</option>
+                <option>רמת גן</option>
+                <option>באר שבע</option>
+            </select>
+        </div>
+
+        <span id="output2"></span>
+
+        <div class="task">
+            <h2>יש להוסיף 2 תמונות בכל לחיצה על התמונות זה יציג את התמונה השנייה</h2>
+
+            <img src="image/Img(1).jpg" id="img1" onclick="task4()">
+            <img src="image/img(2).jpg" style="display: none;" id="img2" onclick="task4_b()">
+        </div>
+
+        <div class="task">
+            <h2>יש ליצור כפתור עם הספרה 1, כל לחיצה על הכפתור תגדיל אותו ב-1 (כולל את גודל הטקסט)</h2>
+            <button onclick="task5()" id="btn2">1</button>
+        </div>
+
+</body>
+
+</html>

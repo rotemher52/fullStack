@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <h1>טופס יצירת קשר</h1>
+
+    <form action="forms.html">
+        <div>
+            <label>שם פרטי:</label>
+            <input type="text" placeholder="שם פרטי">
+        </div>
+
+        <div>
+            <label>
+                שם משפחה:
+                <input type="text">
+            </label>
+
+        </div>
+
+        <div>
+            <label>טלפון:</label>
+            <input type="tel">
+        </div>
+
+        <div>
+            <label>אימייל:</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label>תאריך לידה:</label>
+            <input type="date">
+        </div>
+
+        <div>
+            <label>תעודת זהות</label>
+            <input type="number">
+        </div>
+
+        <div>
+            <label>סיסמא:</label>
+            <input type="password">
+        </div>
+
+        <div>
+            <label>טווח:</label>
+            <input type="range">
+        </div>
+
+        <div>
+            <label>צבע:</label>
+            <input type="color">
+        </div>
+
+        אופציה הראשונה-
+        <div>
+            <label>קובץ:</label>
+            <input type="file">
+        </div>
+
+        אופציה שנייה-
+        <div>
+            <label>קובץ:</label>
+            <input type="file" multiple>
+        </div>
+
+        <div>
+            <label> תוספות:</label>
+            <label><input type="checkbox"> זיתים</label>
+            <label><input type="checkbox"> בצל</label>
+            <label><input type="checkbox"> עגבניות</label>
+            <label><input type="checkbox"> טונה</label>
+            <label><input type="checkbox"> בולגרית</label>
+        </div>
+
+        <div>
+            <label>אמצעי תשלום:</label>
+            <label><input type="radio" name="paymant"> אשראי</label>
+            <label><input type="radio" name="paymant"> מזומן</label>
+            <label><input type="radio" name="paymant"> העברה בנקיאת</label>
+            <label><input type="radio" name="paymant"> צ'קים</label>
+            <label><input type="radio" name="paymant"> ביט</label>
+            <label><input type="radio" name="paymant"> פייבוקס</label>
+            <label><input type="radio" name="paymant"> PayPal</label>
+            <label><input type="radio" name="paymant"> חליפין</label>
+        </div>
+
+        <div>
+            <label>משלוח:</label>
+            <label><input type="radio" name="shipping"> שליח תוך שעה</label>
+            <label><input type="radio" name="shipping"> איסוף עצמי</label>
+            <label><input type="radio" name="shipping"> שליח עד הבית </label>
+            <label><input type="radio" name="shipping"> דואר ישראל</label>
+        </div>
+
+        אופציה ראשונה-
+        <div>
+            <label>עיר:</label>
+            <select>
+                <option disabled selected></option>
+                <option>ירושלים</option>
+                <option>תל אביב</option>
+                <option>כפר חרוב</option>
+                <option>ראשון לציון</option>
+                <option>גוש חלב</option>
+                <option>חיפה</option>
+                <option>אשקלון</option>
+            </select>
+        </div>
+
+        אופציה שניה-
+        <div>
+            <label>עיר:</label>
+            <select multiple>
+                <option>ירושלים</option>
+                <option>תל אביב</option>
+                <option>כפר חרוב</option>
+                <option>ראשון לציון</option>
+                <option>גוש חלב</option>
+                <option>חיפה</option>
+                <option>אשקלון</option>
+            </select>
+        </div>
+        <button>שלח</button>
+    </form>
+</body>
+
+</html>
