@@ -86,24 +86,53 @@ button {
     font-size: 15px;
 }
 
+    .col-md-7 {
+        .img {
+        width: 500px;
+        }
+    }
 
+#links {
+    background-color: #31d2f2;
+    text-align: center;
+    padding: 25px 0;
+    direction: ltr;
+    margin: 0;
+
+    img {
+        height: 40px;
+        display: block;
+        margin: auto;
+    }
+
+    span {
+        margin: 8px 0;
+        display: inline-block;
+    }
+}
 
 footer {
-top: 1685px;
-left: 0.5px;
-width: 100%;
-height: 30px;
-background: #000000 0% 0% no-repeat padding-box;
-color: white;
+    padding: 8px;
+    background-color: black;
+    color: white;
 }
 
-footer>span {
-top: 1694px;
-left: 30px;
-width: 74px;
-height: 29px;
-text-align: left;
-font: normal normal normal 20px/29px Heebo;
-letter-spacing: 0.5px;
-color: #1AE0EC;
-}
+// footer {
+// top: 1685px;
+// left: 0.5px;
+// width: 100%;
+// height: 30px;
+// background: #000000 0% 0% no-repeat padding-box;
+// color: white;
+// }
+
+// footer>span {
+// top: 1694px;
+// left: 30px;
+// width: 74px;
+// height: 29px;
+// text-align: left;
+// font: normal normal normal 20px/29px Heebo;
+// letter-spacing: 0.5px;
+// color: #1AE0EC;
+// }
