@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -7,36 +15,55 @@
     opacity: 1;
   }
 }
+
 body {
   direction: rtl;
-  font-family: "Heebo", sans-serif;
-  animation: fadeIn 2s;
+  font-family: 'Heebo', sans-serif;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 
 nav {
   padding: 0 !important;
-  box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.4784313725);
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.478431);
+          box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.478431);
+  position: -webkit-sticky !important;
   position: sticky !important;
   top: 0;
   z-index: 1;
 }
 
+.navbar {
+  background-color: #FFFFFFF2 !important;
+}
+
 .logo {
-  font-family: "Satisfy", cursive;
+  font-family: 'Satisfy', cursive;
 }
+
 .logo span {
-  margin-left: 8px;
+  margin: 10px;
   font-size: 25px;
-  position: relative;
-  top: 8px;
 }
+
 .logo .icon {
-  height: 60px;
-  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 li.nav-item {
   margin: 0 12px;
+}
+
+li.nav-item:hover a.nav-link {
+  color: #1ae0ec !important;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
 a.nav-link {
@@ -47,11 +74,12 @@ a.nav-link {
 
 .main {
   text-align: center;
-  background-image: linear-gradient(45deg, rgba(19, 232, 241, 0.3019607843), rgba(19, 232, 241, 0.3019607843)), url(assets/Image20230430153820.png);
+  background-image: linear-gradient(45deg, #13e8f14d, #13e8f14d), url(images/Image20230430153820.png);
   background-size: cover;
   padding: 12vw 6vw !important;
   margin: 0 !important;
 }
+
 .main h1 {
   font-size: 80px;
   font-weight: bold;
@@ -59,14 +87,18 @@ a.nav-link {
 
 .icons {
   text-align: center;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
   direction: ltr;
   padding: 8px;
 }
+
 .icons img {
   height: 80px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .icons img:hover {
   scale: 1.1;
 }
@@ -78,14 +110,20 @@ a.nav-link {
   padding-top: 90px !important;
   padding-bottom: 90px !important;
 }
+
 #about img {
-  width: 150px;
-  border-radius: 100px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 #about h2 {
   margin: 30px;
   font-weight: bold;
 }
+
 #about button {
   margin-top: 20px;
   font-size: 1.4em;
@@ -97,46 +135,68 @@ a.nav-link {
   padding: 100px 0;
   background-color: #f3f3f3;
 }
+
 #gallery h2 {
   text-align: center;
   font-weight: bold;
 }
+
 #gallery .row {
   max-width: 1100px;
   padding: 16px;
   margin: auto;
 }
+
 #gallery .row > div {
   padding: 16px;
 }
+
 #gallery .row .card {
+  cursor: pointer;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
+  -webkit-transition: 0.6s;
   transition: 0.6s;
 }
-#gallery .row .card img {
+
+#gallery .row .card img, #gallery .row .card .card-img-top-container {
+  -webkit-transition: 0.6s;
   transition: 0.6s;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 #gallery .row .card:hover {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.337254902);
+  -webkit-box-shadow: 0 0 8px #00000056;
+          box-shadow: 0 0 8px #00000056;
 }
+
+#gallery .row .card:hover .card-img-top-container {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
 #gallery .row .card:hover img {
   scale: 1.1;
   translate: 0 -5px;
-  filter: brightness(80%);
 }
+
 #gallery .row .card .card-body {
   padding: 2rem 1rem;
 }
+
 #gallery .row .card .card-body h4 {
   font-size: 25px;
   font-weight: bold;
 }
+
 #gallery .row .card .card-body p {
   margin-top: 20px;
   font-size: 15px;
 }
+
 #gallery .row .card .card-body a {
   margin-top: 20px;
   border-radius: 30px;
@@ -144,7 +204,7 @@ a.nav-link {
 }
 
 #contact {
-  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.4509803922), transparent), url(contact_us.png);
+  background-image: linear-gradient(45deg, #00000073, transparent), url(images/contact_us.png);
   background-color: #3A3A3A;
   padding: 4vw 3vw !important;
   margin: 0 !important;
@@ -153,14 +213,17 @@ a.nav-link {
   background-repeat: no-repeat;
   background-position: revert;
 }
+
 #contact form {
   margin: 32px;
 }
+
 #contact input.form-control {
   border-bottom: 3px solid aqua;
   border-radius: 0;
   margin-bottom: 16px;
 }
+
 #contact button {
   margin-top: 32px;
   font-size: 1.4em;
@@ -169,36 +232,56 @@ a.nav-link {
 }
 
 #links {
+  width: 100%;
+  padding: 40px 10px;
+  margin: 0;
   background-color: #31d2f2;
   text-align: center;
 }
+
 #links img {
   width: 40px;
+  height: 40px;
   display: block;
   margin: auto;
 }
+
 #links span {
-  margin: 8px 0;
+  margin: 15px 0 0;
   display: inline-block;
 }
 
 footer {
-  top: 1685px;
-  left: 0.5px;
+  background-color: #31d2f2;
+  padding-bottom: 8px;
+}
+
+footer .footer {
   width: 100%;
-  height: 30px;
+  height: 40px;
   background: #000000 0% 0% no-repeat padding-box;
   opacity: 1;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  font-size: 14px;
 }
 
-footer > span {
-  top: 1694px;
-  left: 30px;
-  width: 74px;
-  height: 29px;
-  text-align: left;
+footer .footer > span {
+  font-family: 'Assistant', sans-serif;
   letter-spacing: 0.5px;
-  color: #1AE0EC;
-  opacity: 1;
-}/*# sourceMappingURL=style.css.map */
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

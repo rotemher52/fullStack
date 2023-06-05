@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -16,7 +19,7 @@
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ראשי</a>
+                    <a class="nav-link" href="#home">ראשי</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">אודות</a>
@@ -38,7 +41,7 @@
         </div>
     </nav>
 
-    <div class="mt-4 p-5 main">
+    <div class="mt-4 p-5 main" id="home">
         <h1>תיק עבודות</h1>
         <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט
             ומעיוט לפתיעם ברשג. </p>
@@ -81,7 +84,9 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/project-landing-page-1.PNG" alt="Card image">
+                    <div class="card-img-top-container">
+                        <img class="card-img-top" src="images/project-landing-page-1.PNG" alt="Card image">
+                    </div>
                     <div class="card-body">
                         <h4 class="card-title">Here & Now</h4>
                         <p class="card-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק.</p>
@@ -91,7 +96,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/Image20230502113400.png" alt="Card image">
+                    <div class="card-img-top-container">
+                        <img class="card-img-top" src="images/Image20230502113400.png" alt="Card image">
+                    </div>
                     <div class="card-body">
                         <h4 class="card-title">קפה טוב לבוקר טוב</h4>
                         <p class="card-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק.</p>
@@ -101,7 +108,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/Image20230502113405.png" alt="Card image">
+                    <div class="card-img-top-container">
+                        <img class="card-img-top" src="images/Image20230502113405.png" alt="Card image">
+                    </div>
                     <div class="card-body">
                         <h4 class="card-title">חופשה במרחק נגיעה</h4>
                         <p class="card-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר בלובק.
@@ -112,7 +121,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/Image20230502113411.png" alt="Card image">
+                    <div class="card-img-top-container">
+                        <img class="card-img-top" src="images/Image20230502113411.png" alt="Card image">
+                    </div>
                     <div class="card-body">
                         <h4 class="card-title">תנו לנו להזמין אתכם <span style="color: red;">לצ'ייסר</span></h4>
                         <p class="card-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר
@@ -123,7 +134,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/Image20230502113336.png" alt="Card image">
+                    <div class="card-img-top-container">
+                        <img class="card-img-top" src="images/Image20230502113336.png" alt="Card image">
+                    </div>
                     <div class="card-body">
                         <h4 class="card-title">תן לנו להוביל אותך קדימה</h4>
                         <p class="card-text">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית סחטיר
@@ -197,8 +210,10 @@
     </section>
 
     <footer>
-        כל הזכויות שמורות לרותם הרשקוביץ
-        <span>Rotem Hershkovitz</span>
+        <div class="footer">
+            <span>כל הזכויות שמורות לרותם הרשקוביץ</span>
+            <span>Rotem Hershkovitz</span>
+        </div>
     </footer>
 </body>
 
