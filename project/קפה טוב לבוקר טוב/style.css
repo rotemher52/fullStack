@@ -84,7 +84,7 @@ button {
 }
 
 .Coffee .img {
-  width: 500px;
+  max-width: 50%;
 }
 
 #links {
