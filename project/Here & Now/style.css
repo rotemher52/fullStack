@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -15,35 +7,29 @@
     opacity: 1;
   }
 }
-
 body {
   direction: rtl;
-  font-family: 'Heebo', sans-serif;
-  -webkit-animation: fadeIn 2s;
-          animation: fadeIn 2s;
+  font-family: "Heebo", sans-serif;
+  animation: fadeIn 2s;
 }
 
 nav {
   padding: 0 !important;
-  -webkit-box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.478431);
-          box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.478431);
-  position: -webkit-sticky !important;
+  box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.4784313725);
   position: sticky !important;
   top: 0;
   z-index: 1;
 }
 
 .logo {
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
 }
-
 .logo span {
   margin-left: 8px;
   font-size: 25px;
   position: relative;
   top: 8px;
 }
-
 .logo .icon {
   height: 60px;
   border-radius: 8px;
@@ -61,12 +47,11 @@ a.nav-link {
 
 .main {
   text-align: center;
-  background-image: linear-gradient(45deg, #13e8f14d, #13e8f14d), url(assets/Image20230430153820.png);
+  background-image: linear-gradient(45deg, rgba(19, 232, 241, 0.3019607843), rgba(19, 232, 241, 0.3019607843)), url(assets/Image20230430153820.png);
   background-size: cover;
   padding: 12vw 6vw !important;
   margin: 0 !important;
 }
-
 .main h1 {
   font-size: 80px;
   font-weight: bold;
@@ -74,18 +59,14 @@ a.nav-link {
 
 .icons {
   text-align: center;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   direction: ltr;
   padding: 8px;
 }
-
 .icons img {
   height: 80px;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .icons img:hover {
   scale: 1.1;
 }
@@ -111,13 +92,10 @@ button {
   left: 366px;
   width: 1189px;
   height: 718px;
-  background: transparent -webkit-gradient(linear, left top, left bottom, from(#281eff), to(#2dff8c)) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #281eff 0%, #2dff8c 100%) 0% 0% no-repeat padding-box;
-  -webkit-box-shadow: 0px 0px 40px #00000066;
-          box-shadow: 0px 0px 40px #00000066;
+  background: transparent linear-gradient(180deg, rgb(40, 30, 255) 0%, rgb(45, 255, 140) 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
   opacity: 1;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   display: block;
 }
 
@@ -128,10 +106,10 @@ button {
   width: 755px;
   height: 204px;
   text-align: left;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   letter-spacing: 0px;
   color: #FFFFFF;
-  text-shadow: 0px 0px 36px #00000087;
+  text-shadow: 0px 0px 36px rgba(0, 0, 0, 0.5294117647);
   opacity: 1;
 }
 
@@ -144,15 +122,11 @@ input {
   left: 637px;
   width: 250px;
   height: 30px;
-  background: #F6F6F624 0% 0% no-repeat padding-box;
+  background: rgba(246, 246, 246, 0.1411764706) 0% 0% no-repeat padding-box;
   border: 2px solid #FFFFFF;
   opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -186,5 +160,4 @@ footer > span {
   letter-spacing: 0.5px;
   color: #1AE0EC;
   opacity: 1;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
