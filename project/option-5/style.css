@@ -95,7 +95,7 @@ button {
   grid-template-columns: repeat(4, 200px);
   grid-template-rows: repeat(6, 200px);
   gap: 10px;
-  height: 850px;
+  height: 100%;
 }
 .box1 .frame > div {
   background-size: cover;
@@ -162,6 +162,27 @@ button {
   grid-column: 3/5;
   grid-row: 4/7;
   background-color: #8E097C;
+  text-align: center;
+}
+.box1 .frame > div:last-child h1 {
+  color: white;
+  font-size: 35px;
+}
+.box1 .frame > div:last-child input {
+  top: 1509px;
+  left: 393px;
+  width: 350px;
+  height: 60px;
+  background: #0EE1DA 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.box1 .frame > div:last-child button {
+  top: 1682px;
+  left: 393px;
+  width: 350px;
+  height: 60px;
+  background: #0EE1DA 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 @media (max-width: 767px) {
   .box1 .frame {
