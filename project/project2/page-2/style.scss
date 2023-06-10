@@ -20,38 +20,45 @@ body {
 .div1 {
     top: 671px;
     left: -0.5px;
-    width: 1920px;
-    height: 1014px;
+    width: 100%;
+    height: 100%;
     background: #EBFEFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
-.div1>.div2 {
-    top: 783px;
-    left: 366px;
-    width: 1189px;
-    height: 718px;
-    background: transparent linear-gradient(180deg, rgba(40, 30, 255, 1) 0%, rgba(45, 255, 140, 1) 100%) 0% 0% no-repeat padding-box;
-    box-shadow: 0px 0px 40px #00000066;
-    opacity: 1;
-    box-sizing: border-box;
-    display: block;
+.div1 {
+    .div2 {
+        top: 783px;
+        left: 366px;
+        width: 100%;
+        height: 100vh;
+        background: transparent linear-gradient(180deg, rgba(40, 30, 255, 1) 0%, rgba(45, 255, 140, 1) 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 40px #00000066;
+        opacity: 1;
+        box-sizing: border-box;
+        display: block;
+    }
 }
 
-.div2>.div2>h1 {
-    padding: 0 !important;
-    top: 337px;
-    left: 582px;
-    width: 755px;
-    height: 204px;
-    text-align: left;
-    // font: normal normal normal 160px/231px Satisfy;
-    font-family: 'Satisfy', cursive;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 36px #00000087;
-    opacity: 1;
+.div2 {
+    .div2 {
+        h1 {
+            padding: 0 !important;
+            top: 337px;
+            left: 582px;
+            width: 755px;
+            height: 204px;
+            text-align: left;
+            // font: normal normal normal 160px/231px Satisfy;
+            font-family: 'Satisfy', cursive;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            text-shadow: 0px 0px 36px #00000087;
+            opacity: 1;
+        }
+    }
 }
+
 
 label {
     color: white;
