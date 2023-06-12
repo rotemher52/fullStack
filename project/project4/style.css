@@ -167,31 +167,29 @@ button {
   color: white;
   font-size: 35px;
 }
-.box1 .frame > div:last-child .labels {
+.box1 .frame > div:last-child .labels .input1 {
   text-align: right;
 }
-.box1 .frame > div:last-child .labels .input1 {
-  text-align: center;
-}
 .box1 .frame > div:last-child .labels .input2 {
-  text-align: center;
+  text-align: right;
 }
 .box1 .frame > div:last-child .labels .input3 {
-  text-align: center;
+  text-align: right;
+  height: 150px;
 }
 .box1 .frame > div:last-child input {
   top: 1509px;
   margin-bottom: 25px;
   left: 393px;
-  width: 150px;
-  height: 60px;
+  width: 250px;
+  height: 35px;
   background: #0EE1DA 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 .box1 .frame > div:last-child button {
   top: 1682px;
   left: 393px;
-  width: 350px;
+  width: 250px;
   height: 60px;
   background: #0EE1DA 0% 0% no-repeat padding-box;
   opacity: 1;
