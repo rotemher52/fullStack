@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+        for (let i = 4; i <= 20; i += 2) {
+            console.log(i);
+        }
+
+        function sumUpTo(num) {
+            let sum = 0;
+
+            if (num < 1) {
+                console.log('Please insert a number grater than 0');
+                return num;
+            }
+
+            for (let i = 1; i <= num; i++) {
+                sum += i;
+            }
+
+            return sum;
+        }
+
+        sumUpTo(-1); // -1
+        sumUpTo(0); // 0
+        let sum1 = sumUpTo(1); // 1
+        console.log(sum1);
+
+        console.log(sumUpTo(20)); // 15
+
+        const m = [8, 9, 15, 16, 83, 65]
+        for (let i = 0; i <= m.length; i++) {
+
+        }
+
+        // const arr = [1, 78, 8237, 1726, 55556, 1236, 1289371237897];
+
+        // let max = arr[0]; // max = 1289371237897
+        // for (let i = 0; i < arr.length; i++) {
+        //     if (arr[i] > max) {
+        //         max = arr[i];
+        //     }
+        // }
+        // console.log(max);
+
+        const arr2 = [1, 78, 8237, 1726, 55556, 1236, 1289371237897];
+
+        let min = arr2[0];
+        for (let i = 0; i < arr2.length; i++) {
+            if (arr2[i] < min) {
+                min = arr2[i];
+            }
+        }
+        console.log(min);
+
+        // const arr3 = [1, 78, 8237, 1726, 55556, 1236, 1289371237897];
+
+        // for (let i = 0; i < arr3.length; i++) {
+        //     arr3 += i;
+        //     console.log();
+        // }
+
+        function isAllArrayEven() {
+            const arr4 = [12, 781, 82372, 1726, 55556, 1236, 12893712378978];
+            for (let i = 0; i < arr4.length; i++) {
+                if (arr4[i] % 2 != 0) {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        console.log(isAllArrayEven());
+
+    </script>
+</body>
+
+</html>
