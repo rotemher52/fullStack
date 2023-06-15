@@ -29,14 +29,15 @@ nav {
   font-family: "Satisfy", cursive;
 }
 .logo span {
-  margin-left: 8px;
+  margin-left: 10px;
   font-size: 25px;
-  position: relative;
-  top: 8px;
 }
 .logo .icon {
-  height: 60px;
-  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 li.nav-item {
