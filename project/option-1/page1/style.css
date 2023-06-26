@@ -77,6 +77,16 @@ button {
   border: 1px none;
   border-radius: 15px;
   font-size: 15px;
+  color: #000;
+}
+
+a:visited {
+  background-color: #1AE0EC;
+  border: 1px none;
+  border-radius: 15px;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
 }
 
 .box1 {

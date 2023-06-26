@@ -40,45 +40,6 @@ nav {
     }
 }
 
-li.nav-item {
-    margin: 0 12px;
-}
-
-a.nav-link {
-    font-size: 20px;
-    font-weight: 600;
-    color: #2C2C2C !important;
-}
-
-.main {
-    text-align: center;
-    background-image: linear-gradient(45deg, #13e8f14d, #13e8f14d), url(assets/Image20230430153820.png);
-    background-size: cover;
-    padding: 12vw 6vw !important;
-    margin: 0 !important;
-
-    h1 {
-        font-size: 80px;
-        font-weight: bold;
-    }
-}
-
-.icons {
-    text-align: center;
-    box-shadow: 0px 3px 6px #00000029;
-    direction: ltr;
-    padding: 8px;
-
-    img {
-        height: 80px;
-        transition: 0.3s;
-
-        &:hover {
-            scale: 1.1;
-        }
-    }
-}
-
 button {
     background-color: #1AE0EC;
     border: 1px none;
@@ -102,14 +63,24 @@ button {
     }
 
     .input {
-        left: 75%;
-        width: 150px;
-        height: 200px;
+        width: 300px;
+        height: 400px;
         background: rgba(26, 26, 26, 0.83) 0% 0% no-repeat padding-box;
         opacity: 1;
-        top: 157px;
         z-index: 2;
         margin-top: -15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        button {
+            top: 611px;
+            left: 1382px;
+            width: 100px;
+            height: 30px;
+            background: #D31C75 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
     }
 
 }
