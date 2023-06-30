@@ -38,7 +38,19 @@ nav {
 }
 .box1 #imgPhone {
   width: 535px;
-  height: 804px;
+  height: 650px;
+  position: absolute;
+  right: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.box1 #imgWhatsapp {
+  position: absolute;
+  left: 0;
+  background-color: #FDBD03;
+  border-radius: 50%;
+  max-width: 75px;
+  max-height: 75px;
 }
 .box1 h1 {
   color: #FDBD03;
