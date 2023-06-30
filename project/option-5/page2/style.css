@@ -32,6 +32,10 @@ nav {
      object-fit: cover;
 }
 
+.box1 {
+  margin-top: 20px;
+}
+
 .frame {
   display: inline-grid;
   max-width: 100%;
