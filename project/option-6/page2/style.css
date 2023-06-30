@@ -1,1 +1,48 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+body {
+  direction: rtl;
+  background-color: #E5EEFF;
+  text-align: center;
+}
+
+nav {
+  padding: 0 !important;
+  box-shadow: 0 5px 10px 1px rgba(168, 168, 168, 0.4784313725);
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9490196078) !important;
+}
+
+.logo {
+  font-family: "Satisfy", cursive;
+}
+.logo span {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.logo .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box1 {
+  width: 100%;
+  height: 100px;
+}
+.box1 #imgPhone {
+  width: 535px;
+  height: 804px;
+}
+.box1 h1 {
+  color: #FDBD03;
+}
+.box1 p {
+  color: #020253;
+}/*# sourceMappingURL=style.css.map */
