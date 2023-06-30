@@ -40,16 +40,6 @@ nav {
      object-fit: cover;
 }
 
-li.nav-item {
-  margin: 0 12px;
-}
-
-a.nav-link {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2C2C2C !important;
-}
-
 .main {
   text-align: center;
   background-image: linear-gradient(45deg, rgba(19, 232, 241, 0.3019607843), rgba(19, 232, 241, 0.3019607843)), url(assets/Image20230430153820.png);
@@ -90,6 +80,13 @@ button {
   height: 1014px;
   background: #EBFEFF 0% 0% no-repeat padding-box;
   opacity: 1;
+}
+
+#Screenshot {
+  margin-top: 112px;
+  margin-right: 190px;
+  margin-bottom: 184px;
+  margin-left: 365px;
 }
 
 #links {
