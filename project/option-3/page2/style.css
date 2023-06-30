@@ -88,6 +88,9 @@ a.nav-link {
   letter-spacing: 0px;
   color: #020253;
 }
+.col-sm-5 label {
+  text-align: right;
+}
 .col-sm-5 input {
   top: 465px;
   left: 1294px;
