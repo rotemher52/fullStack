@@ -36,16 +36,6 @@ nav {
      object-fit: cover;
 }
 
-li.nav-item {
-  margin: 0 12px;
-}
-
-a.nav-link {
-  font-size: 20px;
-  font-weight: 600;
-  color: #2C2C2C !important;
-}
-
 .main {
   text-align: center;
   background-image: linear-gradient(45deg, rgba(19, 232, 241, 0.3019607843), rgba(19, 232, 241, 0.3019607843)), url(assets/Image20230430153820.png);
@@ -87,6 +77,12 @@ a:visited {
   font-size: 15px;
   color: #000;
   text-decoration: none;
+}
+
+#Screenshot {
+  margin-top: 112px;
+  margin-right: 70px;
+  margin-bottom: 184px;
 }
 
 .box1 {
