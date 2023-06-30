@@ -50,21 +50,20 @@ nav {
   background-color: #020253;
 }
 
-#perpleBox {
-  height: 100%;
+#blueBox {
+  text-align: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  flex-direction: column;
 }
-#perpleBox input[type=text] {
-  height: 60px;
-  width: 350px;
+#blueBox h1 {
+  color: #0EE1DA;
 }
-#perpleBox #textarea {
-  width: 350px;
-  height: 172px;
+#blueBox p {
+  margin-top: 10px;
+  color: #F9F9F9;
+  width: 300px;
 }
 
 .frame > div:nth-child(2) {
@@ -127,6 +126,57 @@ nav {
   grid-column: 3/5;
   grid-row: 4/7;
   background-color: #8E097C;
+}
+
+#perpleBox {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+#perpleBox h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+#perpleBox p {
+  color: #F9F9F9;
+}
+#perpleBox label {
+  color: #0EE1DA;
+  font-family: heebo, bold;
+  text-align: right;
+}
+#perpleBox input[type=text] {
+  background-color: #E5EEFF;
+  height: 60px;
+  width: 350px;
+  border-bottom: 4px solid #0EE1DA;
+  border-top: 4px none;
+  border-right: 4px none;
+  border-left: 4px none;
+}
+#perpleBox #labelArea {
+  margin-right: 21px;
+}
+#perpleBox #textarea {
+  background-color: #E5EEFF;
+  width: 350px;
+  height: 172px;
+  border-bottom: 4px solid #0EE1DA;
+  border-top: 4px none;
+  border-right: 4px none;
+  border-left: 4px none;
+}
+#perpleBox button {
+  background-color: #0EE1DA;
+  width: 350px;
+  height: 56px;
+  border: none;
+  color: #011560;
+  font-size: 24px;
+  font-family: heebo, bold;
 }
 
 @media (max-width: 767px) {
