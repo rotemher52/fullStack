@@ -95,4 +95,45 @@ nav {
   margin-top: 10px;
   height: 50px;
   width: 166px;
+}
+
+.links {
+  display: flex;
+  justify-content: left;
+  margin-top: 485px;
+}
+.links img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.links #facebook {
+  background-color: #FDBD03;
+  border: 1px solid #000;
+  border-radius: 50%;
+  max-width: 60px;
+  margin-left: 10px;
+  padding: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.links #linkedin {
+  background-color: #FDBD03;
+  border: 1px solid #000;
+  border-radius: 50%;
+  max-width: 60px;
+  margin-left: 10px;
+  padding: 3px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+.links #phone {
+  background-color: #FDBD03;
+  border: 1px solid #000;
+  border-radius: 50%;
+  max-width: 60px;
+  padding: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
