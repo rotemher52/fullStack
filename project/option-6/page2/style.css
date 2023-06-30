@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
 body {
   direction: rtl;
-  background-color: #E5EEFF;
+  background-color: white;
   text-align: center;
 }
 
@@ -51,6 +51,9 @@ nav {
   border-radius: 50%;
   max-width: 60px;
 }
+.box1 .div1 {
+  top: 90px;
+}
 .box1 .div1 h1 {
   color: #FDBD03;
   font-size: 66px;
@@ -58,4 +61,27 @@ nav {
 .box1 .div1 p {
   color: #020253;
   font-size: 20px;
+}
+.box1 .div1 .div2 {
+  position: absolute;
+  right: 600px;
+  text-align: right;
+}
+.box1 .div1 .div2 input {
+  width: 260px;
+  height: 30px;
+  background-color: #E5EEFF;
+  border-top: 1px none;
+  border-right: 1px none;
+  border-left: 1px none;
+  border-bottom: 4px solid #FDBD03;
+}
+.box1 .div1 .div2 textarea {
+  width: 524px;
+  height: 100px;
+  background-color: #E5EEFF;
+  border-top: 1px none;
+  border-right: 1px none;
+  border-left: 1px none;
+  border-bottom: 4px solid #FDBD03;
 }/*# sourceMappingURL=style.css.map */
