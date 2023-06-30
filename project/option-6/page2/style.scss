@@ -51,16 +51,19 @@ nav {
         left: 0;
         background-color: #FDBD03;
         border-radius: 50%;
-        max-width: 75px;
-        max-height: 75px;
+        max-width: 60px;
     }
 
-    h1 {
-        color: #FDBD03;
-        
-    }
+    .div1 {
 
-    p {
-        color: #020253;
+        h1 {
+            color: #FDBD03;
+            font-size: 66px;
+        }
+
+        p {
+            color: #020253;
+            font-size: 20px;
+        }
     }
 }
