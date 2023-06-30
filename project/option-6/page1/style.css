@@ -92,6 +92,13 @@ button {
   opacity: 1;
 }
 
+#Screenshot {
+  margin-top: 112px;
+  margin-right: 25px;
+  margin-bottom: 184px;
+  margin-left: 25px;
+}
+
 #links {
   background-color: #31d2f2;
   text-align: center;
