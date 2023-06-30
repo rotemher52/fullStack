@@ -55,6 +55,8 @@ nav {
     }
 
     .div1 {
+        position: relative;
+        text-align: center;
         top: 90px;
 
         h1 {
@@ -65,16 +67,18 @@ nav {
         p {
             color: #020253;
             font-size: 20px;
+            margin-top: 20px;
         }
 
         .div2 {
+            margin-top: 30px;
             position: absolute;
             right: 600px;
             text-align: right;
 
             input {
-                width: 260px;
-                height: 30px;
+                width: 300px;
+                height: 50px;
                 background-color: #E5EEFF;
                 border-top: 1px none;
                 border-right: 1px none;
@@ -83,13 +87,21 @@ nav {
             }
 
             textarea {
-                width: 524px;
+                width: 604px;
                 height: 100px;
                 background-color: #E5EEFF;
                 border-top: 1px none;
                 border-right: 1px none;
                 border-left: 1px none;
                 border-bottom: 4px solid #FDBD03;
+            }
+
+            button {
+                background-color: #FDBD03;
+                border: none;
+                margin-top: 10px;
+                height: 50px;
+                width: 166px;
             }
         }
     }
