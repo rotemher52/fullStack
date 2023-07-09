@@ -29,7 +29,7 @@ function Gallery() {
 
     return (
         <div className="gallery">
-            <img src={images[currentImage]} onClick={() => nextImage()} />
+            <img src={images[currentImage]} onClick={() => nextImage()} alt="" />
         </div>
     );
 }
