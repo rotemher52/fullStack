@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  direction: rtl;
+  font-family: "Heebo", sans-serif;
+  animation: fadeIn 2s;
+}
+
+nav {
+  padding: 0 !important;
+  box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.4784313725);
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  font-family: "Satisfy", cursive;
+}
+.logo span {
+  margin-left: 10px;
+  font-size: 25px;
+}
+.logo .icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box1 {
+  width: 100vw;
+  height: 850px;
+  border: 1px solid #000;
+  padding: 20px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgP {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+  opacity: 1;
+  z-index: 1;
+}
+
+.input {
+  position: relative;
+  width: 390px;
+  height: 450px;
+  background: rgba(26, 26, 26, 0.83) 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: auto;
+  z-index: 15;
+  margin-top: -360px;
+  margin-right: 260px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-family: "Satisfy", cursive;
+}
+.input label {
+  text-align: right;
+}
+.input input {
+  width: 300px;
+  height: 30px;
+  border: #D31C75 1px;
+}
+.input button {
+  top: 611px;
+  left: 1382px;
+  width: 100px;
+  height: 30px;
+  background: #D31C75 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  color: white;
+  border: 1px none;
+  font-size: 15px;
+  font-family: heebo;
+}
+
+#links {
+  background-color: #31d2f2;
+  text-align: center;
+  padding: 25px 0;
+  direction: ltr;
+  margin: 0;
+}
+#links img {
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+#links span {
+  margin: 8px 0;
+  display: inline-block;
+}
+
+footer {
+  padding: 8px;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */

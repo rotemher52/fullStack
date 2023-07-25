@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700;900&family=Satisfy&display=swap');
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+    animation: fadeIn 2s;
+}
+
+nav {
+    padding: 0 !important;
+    box-shadow: 0px 5px 10px 1px rgba(168, 168, 168, 0.4784313725);
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: #FFFFFFF2 !important;
+}
+
+.logo {
+    font-family: 'Satisfy', cursive;
+
+    span {
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .icon {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.main {
+    text-align: center;
+    background-image: linear-gradient(45deg, #13e8f14d, #13e8f14d), url(assets/Image20230430153820.png);
+    background-size: cover;
+    padding: 12vw 6vw !important;
+    margin: 0 !important;
+
+    h1 {
+        font-size: 80px;
+        font-weight: bold;
+    }
+}
+
+.icons {
+    text-align: center;
+    box-shadow: 0px 3px 6px #00000029;
+    direction: ltr;
+    padding: 8px;
+
+    img {
+        height: 80px;
+        transition: 0.3s;
+
+        &:hover {
+            scale: 1.1;
+        }
+    }
+}
+
+.col-sm-5 {
+
+    form {
+        margin-left: auto;
+        margin-right: 170px;
+        height: auto;
+        text-align: right;
+        margin-top: 100px;
+    }
+
+    p {
+        // text-align: justify;
+        font: normal normal normal 20px/29px Heebo;
+        letter-spacing: 0px;
+        color: #020253;
+    }
+
+    label {
+        text-align: right;
+    }
+
+    input {
+        top: 465px;
+        left: 1294px;
+        width: 350px;
+        height: 50px;
+        background: #E5EEFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-bottom: 4px solid #020253;
+    }
+
+    button {
+        
+        margin-top: 25px;
+        top: 647px;
+        left: 1546px;
+        width: 166px;
+        height: 50px;
+        background: #020253 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+}
+
+.col-sm-7 {
+    #myImage {
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        height: 80vh;
+        object-fit: cover;
+    }
+}
